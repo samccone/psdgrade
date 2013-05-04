@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 psd grade
+  h4 upload your file
+  form(method="post", enctype="multipart/form-data", action="/psd/upload")
+    input(type="file", name="psd")
+    input(type="submit")

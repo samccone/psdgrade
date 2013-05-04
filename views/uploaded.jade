@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  a(href="/") Upload another psd
+  - if (typeof data != "undefined")
+    h2 uploaded!
+    pre= JSON.stringify(data, null, 4)
+  - else
+    h2 error parsing!
+    .error= JSON.stringify(error, null, 4)
