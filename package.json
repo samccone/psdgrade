@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node app"
   },
+  "domains": [
+    "psdgrade.com",
+    "www.psdgrade.com"
+  ],
   "dependencies": {
     "express": "3.0.x",
     "jade": "latest",
