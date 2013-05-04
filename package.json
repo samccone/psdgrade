@@ -1,6 +1,6 @@
 {
   "name": "application-name",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "private": true,
   "scripts": {
     "start": "node app"
@@ -16,6 +16,10 @@
     "coffee-script": "latest",
     "roots-express": "latest",
     "connect-assets": "latest",
-    "psd": "git://github.com/samccone/psd.js.git"
+    "imagemagick": "0.1.3"
+  },
+  "subdomain": "psdgrade",
+  "engines": {
+    "node": "0.8.x"
   }
 }
